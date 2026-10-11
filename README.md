@@ -81,19 +81,19 @@ p <- (
   + theme_minimal()
   + theme(
     # Overall text
-    axis_title=element_text(size=14),
-    axis_text=element_text(size=11),
+    axis.title=element_text(size=14),
+    axis.text=element_text(size=11),
     axis.text.x = element_text(angle = 45, hjust = 1),
     
     # Facet/panel labels
-    strip_text=element_text(size=14),
+    strip.text=element_text(size=14),
     
     # Legend
-    legend_title=element_text(size=12),
-    legend_text=element_text(size=11),
+    legend.title=element_text(size=12),
+    legend.text=element_text(size=11),
     
     # Plot title
-    plot_title=element_text(size=16),
+    plot.title=element_text(size=16),
   )
   + labs(
     x="Cell type",
