@@ -31,7 +31,7 @@
 #' @return A ggplot object.
 #'
 #' @export
-boil_plot <- function(
+boil_plot_seurat <- function(
     object,
     genes,
     category,
